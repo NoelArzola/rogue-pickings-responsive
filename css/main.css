@@ -175,6 +175,44 @@ footer span {
 	font-size: 0.875em;
 }
 
+@media (min-width: 768px) {
+
+	header h1 {
+		width: 100%;
+		padding: 15px 105px;
+		text-align: center;
+	}
+
+	.bottom-section {
+		flex-flow: row nowrap;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		padding: 0 20px;
+	}
+
+	.section-one h4 {
+		padding: 0;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+
+	footer {
+		border-top: 1px solid #eee;
+		padding: 0 210px;
+	}
+
+	footer h4 {
+		width: 100%;
+	}
+}
+
 @media (min-width: 1200px) {
 
 	.container{
@@ -222,7 +260,6 @@ footer span {
 	}
 	
 	header h1 {
-		float: left;
 		margin: 0;
 		padding: 38px 0;
 	}
@@ -231,7 +268,6 @@ footer span {
 	}
 	
 	header nav {
-		float: right;
 		padding: 46px 0;
 	}
 	header nav ul {
